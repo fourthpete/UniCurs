@@ -8,12 +8,16 @@
         width: 2px;
         height: 2px;
         background-color: black;
+        overflow: visible;
       }
     </style>
   </head>
   <body style="margin: 0px;">
+    <form style="margin: 10px;">
+      nick: <input type="text" /><input type="submit" value="join" />
+    </form>
     <div class="feedback"  style="margin: 10px;">
-      <div class="wait">
+      <div class="wait" style="display: none;">
         Connectiong to server, please wait...<br>
         If the process takes more than 10 to 15 seconds, <br>
         check console for details.
